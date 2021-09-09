@@ -37,14 +37,12 @@ You are required to submit the following:
 
 * the URL to the Github repository
 
-## Basic 
 
-* why is the .gitignore pushing to github?
 ## Bonus 
 
-* Click to view employee profile in modal image 
-
 * Ease in/out of search filtering, clicking "x"
+
+* Click to view employee profile in modal image 
 
 * Can we display long emails with "..." instead of the final parts of email?
 
