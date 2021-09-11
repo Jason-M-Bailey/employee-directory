@@ -10,3 +10,14 @@
 
 An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
+## Installation
+
+To install necessary dependencies, run the following command:
+
+```
+npm install
+```
+
+## Usage
+
+* Clone/fork repo and install the necessary dependencies. Run the server with `npm start` and view application in your browser at `http://localhost:3000`.
