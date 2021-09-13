@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <h1 className="text-center">Directory of Employees</h1>
       <p className="text-center">
-        Click column headers to sort or use the search box.
+        Click column headers to sort or use search box.
       </p>
     </header>
   );

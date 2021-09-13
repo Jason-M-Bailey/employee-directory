@@ -1,15 +1,23 @@
 import React from "react";
 import "./style.css";
 
+
+
 const EmployeeTable = (props) => {
+
+
   return (
+
+    // make table sortable
     <table className="table table-striped table-sortable text-center">
       <thead>
         <tr>
-          <th scope="col">Image</th>
+          <th scope="col">Photo</th>
+
+           {/* make table sortable */}
           <th scope="col" data-field="name" data-sortable="true">
             <span onClick={() => props.sortBy("name", "last", "first")}>
-              Name
+              Full Name
             </span>
           </th>
           <th scope="col">
@@ -21,6 +29,9 @@ const EmployeeTable = (props) => {
           <th scope="col">
             <span onClick={() => props.sortBy("dob", "date")}>DOB</span>
           </th>
+
+
+
         </tr>
       </thead>
       <tbody>
@@ -28,7 +39,7 @@ const EmployeeTable = (props) => {
           const { first, last } = employee.name;
           const fullName = `${first} ${last}`;
 
-          // Format date
+          // format birthdate
           const dob = props.formatDate(employee.dob.date);
 
           return (
